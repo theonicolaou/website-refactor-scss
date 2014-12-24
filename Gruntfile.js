@@ -4,8 +4,7 @@ module.exports = function (grunt) {
   		sass: {
     		dist: {
       		files: {
-        		'css/tn.css': 'scss/tn.scss',
-        		'css/tn-mediaqueries.css': 'scss/tn-mediaqueries.scss'
+        		'css/tn.css': 'scss/tn.scss'
       		},
       		options: {
       			sourcemap: 'none'
