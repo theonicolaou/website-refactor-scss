@@ -1,0 +1,39 @@
+/**** navigation.scss ****/
+.navigation {
+	margin: 0;
+	padding: 0;
+	display: block;
+	border-bottom: 1px solid $lightGrey;
+	border-top: 1px solid $lightGrey;
+	text-align: center;
+	color: $mediumGrey;
+	font-size: 1.1em;
+}
+.navigation ul {
+	list-style: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+.navigation li {
+	margin: 0;
+	display: inline;
+	padding: 1.1764706%;
+	
+	@media screen and (min-width: $large) {
+		margin: 0 75px 0 0;
+	}
+}
+.navigation li a {
+	text-decoration: none;
+	color: $mediumGrey;
+	padding: 1.1764706%;
+}
+.navigation li a:hover {
+	text-decoration: underline;
+}
+.navigation .sel {
+	font-weight: bold;
+	line-height: 35px;
+	color: $black;
+}

@@ -1,0 +1,56 @@
+/**** portfolio.scss ****/
+
+/* project detail page */
+.project-details {
+	width: 100%;
+	
+	@media screen and (min-width: $medium) {
+		width: 48.780488%;
+	}
+}
+
+.portfolio-banner {
+	display: block;
+	float: none;
+	width: 100%;
+	
+	img {
+		max-width: 100%;
+	}
+	
+	@media screen and (min-width: $medium) {
+		float: right;
+		margin: 0 0 10px 1%;
+		width: 48.04878%;	
+	}
+}
+
+/* portfolio banner and thumbnails in aside */
+.portfolio {
+	display: none;
+	
+	@media screen and (min-width: $medium) {
+		list-style: none;
+		display: inline;
+		text-align: center;
+		margin: 0px;
+		padding: 0px;
+	}
+}
+.portfolio li {
+	float: left;
+	margin: 5px 2.7918782% 5px 0%;
+	border: 1px solid $lighterGrey;
+	padding: 2px 0px 0px 0px;
+	text-align: center;
+	width: 30.964467%;
+}
+
+.portfolio li:first-child {
+	clear: both;
+}
+.portfolio li:nth-child(3), 
+.portfolio li:nth-child(6), 
+.portfolio li:nth-child(9)  {
+	margin-right: 0px;
+}

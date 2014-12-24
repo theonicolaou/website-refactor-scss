@@ -1,0 +1,20 @@
+/**** layout.scss ****/
+.wrapper {
+	width: 93.8%;
+	text-align: center;
+	margin: 5px auto;
+	padding: 0px;
+	
+	@media screen and (min-width: $medium) {
+		border: 1px solid $lightGrey;
+	}
+	
+	@media screen and (min-width: $large) {
+		width: 76.8%;
+	}
+}
+
+.contentcolumn {
+	text-align: left;
+	padding: 10px 1.7647059% 15px 1.7647059%;
+}

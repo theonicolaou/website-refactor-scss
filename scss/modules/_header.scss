@@ -1,0 +1,13 @@
+/**** header.scss ****/
+header {
+	margin: 0px;
+	text-align: left;
+}
+/* styles to hide header image in reduced widths */
+.wrapper header { 
+	overflow: hidden;
+}
+.wrapper header img { 
+	display: block;
+	max-width: auto;
+}

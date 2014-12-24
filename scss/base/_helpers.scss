@@ -1,0 +1,56 @@
+/**** helpers.scss ****/
+.clearit {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+.spacer {
+	font-size: 0em;
+	height: 7px;
+	clear: both;
+}
+.doublespacer {
+	font-size: 0em;
+	height: 14px;
+	clear: both;
+}
+.floatleft {
+	float: left;
+}
+.floatright {
+	float: right;
+}
+/* is this needed? */
+.floatleft-rightmargin10 {
+	float: left;
+	margin: 0px 10px 0px 0px;
+}
+
+.aligncenter {
+	text-align: center;
+}
+.bottommargin10 {
+	margin: 0px 0px 10px 0px;
+}
+.rightmargin5 {
+	margin: 0px 5px 0px 0px;
+}
+
+.fullwidth {
+	width: 100%;
+}
+
+.zeroMP {
+	margin: 0px;
+	padding: 0px;
+}
+.greyline {
+	border-bottom: solid 1px $lightGrey;
+	margin: 10px 0px;
+}
+/* is this needed? */
+.darkgreyline {
+	border-bottom: solid 1px #A4A2A2;
+	margin: 10px 0px 10px 0px;
+}

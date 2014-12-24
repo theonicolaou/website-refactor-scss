@@ -1,0 +1,129 @@
+/**** projectlistitem.scss ****/
+.projectlistitem-PELT {
+	@extend %projectlistitem;
+	
+	@media screen and (min-width: $small) {
+		background-image: none;
+	}
+	
+	@media screen and (min-width: $medium) {
+		background-image: url(../images/watermarks/PELT.jpg);
+		background-position: 97.9% 0px;
+	}
+}
+.projectlistitem-CBF {
+	@extend %projectlistitem;
+	
+	@media screen and (min-width: $small) {
+		background-image: none;
+	}
+	
+	@media screen and (min-width: $medium) {
+		background-image: url(../images/watermarks/CBF.jpg);
+		background-position: 100% 0px;
+	}
+}
+.projectlistitem-UKC {
+	@extend %projectlistitem;
+	
+	@media screen and (min-width: $small) {
+		background-image: none;
+	}
+	
+	@media screen and (min-width: $medium) {
+		background-image: url(../images/watermarks/UKC.jpg);
+		background-position: 99.8% 0px;
+	}
+}
+.projectlistitem-DR {
+	@extend %projectlistitem;
+	
+	@media screen and (min-width: $small) {
+		background-image: none;
+	}
+	
+	@media screen and (min-width: $medium) {
+		background-image: url(../images/watermarks/DR.jpg);
+		background-position: 100% 0px;
+	}
+}
+.projectlistitem-SP {
+	@extend %projectlistitem;
+	background-image: url(../images/watermarks/SP.jpg);
+	background-position: 100% 0px;
+	
+	@media screen and (min-width: $small) {
+		display: none;
+	}
+	
+	@media screen and (min-width: $medium) {
+		display: block;
+	}
+}
+.projectlistitem-TDG {
+	@extend %projectlistitem;
+	
+	@media screen and (min-width: $small) {
+		background-image: none;
+	}
+	
+	@media screen and (min-width: $medium) {
+		background-image: url(../images/watermarks/TDG.jpg);
+		background-position: 100% 0px;
+	}
+}
+.projectlistitem-BPS {
+	@extend %projectlistitem;
+	
+	@media screen and (min-width: $small) {
+		background-image: none;
+	}
+	
+	@media screen and (min-width: $medium) {
+		background-image: url(../images/watermarks/BPS.jpg);
+		background-position: 100% 0px;
+	}
+}
+.projectlistitem-SS {
+	@extend %projectlistitem;
+	
+	@media screen and (min-width: $small) {
+		background-image: none;
+	}
+	
+	@media screen and (min-width: $medium) {
+		background-image: url(../images/watermarks/SS.jpg);
+		background-position: 100% 0px;
+	}
+}
+.projectlistitem-CAP {
+	@extend %projectlistitem;
+	@media screen and (min-width: $small) {
+		background-image: none;
+	}
+	
+	@media screen and (min-width: $medium) {
+		background-image: url(../images/watermarks/CAP.jpg);
+		background-position: 100% 0px;
+	}
+}
+
+.projectlistitem-details {
+	width: 100%;
+}
+.projectlistitem-details h1, .projectlistitem-details h2, .projectlistitem-details h3 {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+	font-size: 1em;
+	border: none;
+	margin-left: 7em;
+	
+	@media screen and (min-width: $medium) {
+		width: 60%; 
+	}
+	@media screen and (min-width: $large) {
+		width: 63%; 
+	}
+}
